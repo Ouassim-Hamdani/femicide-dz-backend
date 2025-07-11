@@ -10,7 +10,7 @@ db = DBHandler()
 
 origins = [
     "http://localhost:3000",
-    "https://femicide.net", 
+    "https://feminicide.net", 
 ]
 app.add_middleware(
     CORSMiddleware,
